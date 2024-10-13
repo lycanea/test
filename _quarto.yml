@@ -1,7 +1,8 @@
-website: 
-  navbar: 
-    background: primary
-    search: true
-    left: 
-      - text: "Home"
-        href: index.qmd
+project:  
+  type: website 
+  output-dir: ./docs
+  
+profile: 
+  default: english
+  group: 
+    - [english, czech]

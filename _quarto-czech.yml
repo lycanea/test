@@ -1,7 +1,6 @@
----
 project:  
   type: website
-  output-dir: ./docs/english
+  output-dir: ./docs/czech
 website:  
   title: "Jakub Štenc"
   navbar: 
@@ -16,18 +15,3 @@ format:
   html:
     theme: sandstone
     toc: true
----
-
-## Quarto
-
-::: {.content-hiden when-profile="english"}
-English
-
-:::
-
-::: {.content-visible when-profile="czech"}
-
-
-Česky
-
-:::
